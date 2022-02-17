@@ -1,0 +1,498 @@
+nypd_station,mta_station,mta_borough,mta_borough_for_joining
+149 St.-Grand Concourse (4),"149 St-Grand Concourse (2,4,5)",Bx,Bronx
+161 St.-Yankee Stadium (4),"161 St-Yankee Stadium (B,D,4)",Bx,Bronx
+"161 St.-Yankee Stadium (B,D)","161 St-Yankee Stadium (B,D,4)",Bx,Bronx
+167 Street (4),167 St (4),Bx,Bronx
+"167 Street (B,D)","167 St (B,D)",Bx,Bronx
+170 Street (4),170 St (4),Bx,Bronx
+"170 Street (B,D)","170 St (B,D)",Bx,Bronx
+"174-175 Streets (B,D)","174-175 Sts (B,D)",Bx,Bronx
+176 Street (4),176 St (4),Bx,Bronx
+"182-183 Streets (B,D)","182-183 Sts (B,D)",Bx,Bronx
+183 Street (4),183 St (4),Bx,Bronx
+205 St.-Norwood (D),Norwood-205 St (D),Bx,Bronx
+"219 Street (2,5)","219 St (2,5)",Bx,Bronx
+"225 Street (2,5)","225 St (2,5)",Bx,Bronx
+"238 St.-Nereid Ave. (2,5)","Nereid Av (2,5)",Bx,Bronx
+241 St.-Wakefield (2),Wakefield-241 St (2),Bx,Bronx
+3 Avenue-138 Street (6),3 Av-138 St (6),Bx,Bronx
+"3 Avenue-149 Street (2,5)","3 Av-149 St (2,5)",Bx,Bronx
+"Allerton Avenue (2,5)","Allerton Av (2,5)",Bx,Bronx
+"Bronx Park East (2,5)","Bronx Park East (2,5)",Bx,Bronx
+Brook Avenue (6),Brook Av (6),Bx,Bronx
+"Burke Avenue (2,5)","Burke Av (2,5)",Bx,Bronx
+Burnside Avenue (4),Burnside Av (4),Bx,Bronx
+Castle Hill Avenue (6),Castle Hill Av (6),Bx,Bronx
+Cypress Avenue (6),Cypress Av (6),Bx,Bronx
+Dyre Ave.-Eastchester (5),Eastchester-Dyre Av (5),Bx,Bronx
+East 149 Street (6),East 149 St (6),Bx,Bronx
+"East 174 Street (2,5)","174 St (2,5)",Bx,Bronx
+East 177 St.-Parkchester (6),Parkchester (6),Bx,Bronx
+"East 180 Street (2,5)","East 180 St (2,5)",Bx,Bronx
+East Tremont Av.-Westchester Sq. (6),Westchester Sq-East Tremont Av (6),Bx,Bronx
+"East Tremont Ave.-West Farms Sq. (2,5)","West Farms Sq-East Tremont Av (2,5)",Bx,Bronx
+Elder Avenue (6),Elder Av (6),Bx,Bronx
+"Fordham Rd/Grand Concource (B,D)","Fordham Rd (B,D)",Bx,Bronx
+Fordham Road (4),Fordham Rd (4),Bx,Bronx
+"Freeman Street (2,5)","Freeman St (2,5)",Bx,Bronx
+"Gun Hill Road (2,5)","Gun Hill Rd (2,5)",Bx,Bronx
+Hunts Point Avenue (6),Hunts Point Av (6),Bx,Bronx
+"Intervale Avenue (2,5)","Intervale Av (2,5)",Bx,Bronx
+"Jackson Avenue (2,5)","Jackson Av (2,5)",Bx,Bronx
+Kingsbridge Road (4),Kingsbridge Rd (4),Bx,Bronx
+"Kingsbridge Road (B,D)","Kingsbridge Rd (B,D)",Bx,Bronx
+Longwood Avenue (6),Longwood Av (6),Bx,Bronx
+Mt. Eden Avenue (4),Mt Eden Av (4),Bx,Bronx
+Pelham Bay Park (6),Pelham Bay Park (6),Bx,Bronx
+"Prospect Avenue (2,5)","Prospect Av (2,5)",Bx,Bronx
+"Simpson Street (2,5)","Simpson St (2,5)",Bx,Bronx
+Soundview Avenue (6),Morrison Av-Soundview (6),Bx,Bronx
+St. Lawrence Avenue (6),St Lawrence Av (6),Bx,Bronx
+"Tremont Avenue (B,D)","Tremont Av (B,D)",Bx,Bronx
+Unknown (),Unknown (),NA,NA
+Woodlawn (4),Woodlawn (4),Bx,Bronx
+Zerega Avenue (6),Zerega Av (6),Bx,Bronx
+18 Avenue (D),18 Av (D),B,Brooklyn
+20 Avenue (D),20 Av (D),B,Brooklyn
+25 Avenue (D),25 Av (D),B,Brooklyn
+25 Street (R),25 St (R),B,Brooklyn
+"36 Street (D,N,R)","36 St (D,N,R)",B,Brooklyn
+"4 Avenue-9 Street (F,G)","4 Av (F,G)/9 St (R)",B,Brooklyn
+45 Street (R),45 St (R),B,Brooklyn
+53 Street (R),53 St (R),B,Brooklyn
+"59 Street (N,R)","59 St (N,R)",B,Brooklyn
+"7 Avenue (F,G)","7 Av (F,G)",B,Brooklyn
+77 Street (R),77 St (R),B,Brooklyn
+86 Street (N),86 St (N),B,Brooklyn
+86 Street (R),86 St (R),B,Brooklyn
+Alabama Avenue (J),Alabama Av (J),B,Brooklyn
+"Atlantic Avenue (2,3,4,5)","Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",B,Brooklyn
+"Atlantic Avenue (B,Q)","Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",B,Brooklyn
+Atlantic Avenue (L),Atlantic Av (L),B,Brooklyn
+"Avenue ""H"" (Q)",Avenue H (Q),B,Brooklyn
+"Avenue ""J"" (Q)",Avenue J (Q),B,Brooklyn
+"Avenue ""M"" (Q)",Avenue M (Q),B,Brooklyn
+"Avenue ""U"" (Q)",Avenue U (Q),B,Brooklyn
+Bay 50 Street (D),Bay 50 St (D),B,Brooklyn
+Bay Parkway (D),Bay Pkwy (D),B,Brooklyn
+Bay Parkway (N),Bay Pkwy (N),B,Brooklyn
+Bay Ridge Avenue (R),Bay Ridge Av (R),B,Brooklyn
+Bedford Avenue (L),Bedford Av (L),B,Brooklyn
+Bedford-Nostrand Avenues (G),Bedford-Nostrand Avs (G),B,Brooklyn
+"Bergen Street (2,3)","Bergen St (2,3)",B,Brooklyn
+"Bergen Street (F,G)","Bergen St (F,G)",B,Brooklyn
+"Beverly Road (2,5)","Beverly Rd (2,5)",B,Brooklyn
+"Borough Hall (2,3,4,5)","Court St (R)/Borough Hall (2,3,4,5)",B,Brooklyn
+"Brighton Beach (B,Q)","Brighton Beach (B,Q)",B,Brooklyn
+"Broadway-East New York (A,C)","Broadway Junction (A,C,J,L,Z)",B,Brooklyn
+"Carroll Street (F,G)","Carroll St (F,G)",B,Brooklyn
+"Church Avenue (2,5)","Church Av (2,5)",B,Brooklyn
+"Church Avenue (B,Q)","Church Av (B,Q)",B,Brooklyn
+Clinton-Washington Avenues (C),Clinton-Washington Avs (C),B,Brooklyn
+"Dekalb Avenue (B,Q,R)","DeKalb Av (B,Q,R)",B,Brooklyn
+Dekalb Avenue (L),DeKalb Av (L),B,Brooklyn
+"Eastern Pkwy-Brooklyn Museum (2,3)","Eastern Pkwy-Brooklyn Museum (2,3)",B,Brooklyn
+"Euclid Avenue (A,C)","Euclid Av (A,C)",B,Brooklyn
+"Flatbush Ave.-Brooklyn College (2,5)","Flatbush Av-Brooklyn College (2,5)",B,Brooklyn
+Flushing Avenue (G),Flushing Av (G),B,Brooklyn
+"Flushing Avenue (J,M)","Flushing Av (J,M)",B,Brooklyn
+Fort Hamilton Pkwy (D),Fort Hamilton Pkwy (D),B,Brooklyn
+"Franklin Avenue (2,3,4,5)","Franklin Av (2,3,4,5)/Botanic Garden (S)",B,Brooklyn
+Franklin Avenue (C),"Franklin Av (C,S)",B,Brooklyn
+Fulton Street (G),Fulton St (G),B,Brooklyn
+"Gates Avenue (J,Z)","Gates Av (J,Z)",B,Brooklyn
+Graham Avenue (L),Graham Av (L),B,Brooklyn
+"Grand Army Plaza (2,3)","Grand Army Plaza (2,3)",B,Brooklyn
+Greenpoint Avenue (G),Greenpoint Av (G),B,Brooklyn
+Halsey Street (L),Halsey St (L),B,Brooklyn
+"High Street (A,C)","High St (A,C)",B,Brooklyn
+"Hoyt Street (2,3)","Hoyt St (2,3)",B,Brooklyn
+"Hoyt-Schermerhorn (A,C,G)","Hoyt-Schermerhorn Sts (A,C,G)",B,Brooklyn
+"Jay Street-Borough Hall (A,C,F)","Jay St-MetroTech (A,C,F,R)",B,Brooklyn
+Jefferson Street (L),Jefferson St (L),B,Brooklyn
+Junius Street (3),Junius St (3),B,Brooklyn
+"Kings Highway (B,Q)","Kings Hwy (B,Q)",B,Brooklyn
+Kingston-Throop Avenues (C),Kingston-Throop Avs (C),B,Brooklyn
+Kosciusko Street (J),Kosciuszko St (J),B,Brooklyn
+Lafayette Avenue (C),Lafayette Av (C),B,Brooklyn
+Lawrence Street (R),"Jay St-MetroTech (A,C,F,R)",B,Brooklyn
+Livonia Avenue (L),Livonia Av (L),B,Brooklyn
+Lorimer Street (L),Lorimer St (L)/Metropolitan Av (G),B,Brooklyn
+"Marcy Avenue (J,M,Z)","Marcy Av (J,M,Z)",B,Brooklyn
+Montrose Avenue (L),Montrose Av (L),B,Brooklyn
+Morgan Avenue (L),Morgan Av (L),B,Brooklyn
+"Myrtle Avenue (J,M,Z)","Myrtle Av (J,M,Z)",B,Brooklyn
+Myrtle-Willoughby Avenues (G),Myrtle-Willoughby Avs (G),B,Brooklyn
+Myrtle/Wyckoff Avenues (L),"Myrtle-Wyckoff Avs (L,M)",B,Brooklyn
+"Nevins Street (2,3,4,5)","Nevins St (2,3,4,5)",B,Brooklyn
+"Newkirk Avenue (B,Q)","Newkirk Plaza (B,Q)",B,Brooklyn
+"Norwood Avenue (J,Z)","Norwood Av (J,Z)",B,Brooklyn
+Nostrand Avenue (3),Nostrand Av (3),B,Brooklyn
+"Nostrand Avenue (A,C)","Nostrand Av (A,C)",B,Brooklyn
+Ocean Pkwy (Q),Ocean Pkwy (Q),B,Brooklyn
+"Pacific Street (D,N,R)","Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",B,Brooklyn
+Parkside Avenue (Q),Parkside Av (Q),B,Brooklyn
+Pennsylvania Avenue (3),Pennsylvania Av (3),B,Brooklyn
+"President Street (2,5)","President St (2,5)",B,Brooklyn
+"Prospect Park (B,Q,S)","Prospect Park (B,Q,S)",B,Brooklyn
+Ralph Avenue (C),Ralph Av (C),B,Brooklyn
+Rockaway Avenue (3),Rockaway Av (3),B,Brooklyn
+Rockaway Avenue (C),Rockaway Av (C),B,Brooklyn
+Rockaway Pkwy-Canarsie (L),Canarsie-Rockaway Pkwy (L),B,Brooklyn
+Saratoga Avenue (3),Saratoga Av (3),B,Brooklyn
+"Sheepshead Bay (B,Q)","Sheepshead Bay (B,Q)",B,Brooklyn
+"Smith-9 Streets (F,G)","Smith-9 Sts (F,G)",B,Brooklyn
+"Sterling Street (2,5)","Sterling St (2,5)",B,Brooklyn
+"Stillwell Avenue-Coney Island (D,F,N,Q)","Coney Island-Stillwell Av (D,F,N,Q)",B,Brooklyn
+Sutter Avenue (L),Sutter Av (L),B,Brooklyn
+Sutter Avenue-Rutland Road (3),Sutter Av-Rutland Rd (3),B,Brooklyn
+"Utica Ave.-Crown Heights (3,4)","Crown Heights-Utica Av (3,4)",B,Brooklyn
+"Utica Avenue (A,C)","Utica Av (A,C)",B,Brooklyn
+Van Siclen Avenue (3),Van Siclen Av (3),B,Brooklyn
+Van Siclen Avenue (C),Van Siclen Av (C),B,Brooklyn
+"Van Siclen Avenue (J,Z)","Van Siclen Av (J,Z)",B,Brooklyn
+"West 8 Street-Ny Aquarium (Q,F)","West 8 St-New York Aquarium (F,Q)",B,Brooklyn
+Wilson Avenue (L),Wilson Av (L),B,Brooklyn
+"Winthrop Street (2,5)","Winthrop St (2,5)",B,Brooklyn
+Wyckoff Avenue (M),"Myrtle-Wyckoff Avs (L,M)",B,Brooklyn
+1 Avenue (L),1 Av (L),M,Manhattan
+103 Street (6),103 St (6),M,Manhattan
+"110 St.-Cathedral Pkwy. (B,C)","Cathedral Pkwy-110 St (B,C)",M,Manhattan
+"110 St.-Central Park North (2,3)","Central Park North-110 St (2,3)",M,Manhattan
+110 Street (6),110 St (6),M,Manhattan
+"116 Street (2,3)","116 St (2,3)",M,Manhattan
+116 Street (6),116 St (6),M,Manhattan
+"116 Street (B,C)","116 St (B,C)",M,Manhattan
+"125 Street (2,3)","125 St (2,3)",M,Manhattan
+"125 Street (4,5,6)","125 St (4,5,6)",M,Manhattan
+"125 Street (A,B,C,D)","125 St (A,B,C,D)",M,Manhattan
+"135 Street (2,3)","135 St (2,3)",M,Manhattan
+"135 Street (B,C)","135 St (B,C)",M,Manhattan
+137 St.-City College (1),137 St-City College (1),M,Manhattan
+14 St.-Union Square (L),"14 St-Union Sq (L,N,Q,R,W,4,5,6)",M,Manhattan
+"14 Street (1,2,3)","14 St (F,M,1,2,3)/6 Av (L)",M,Manhattan
+"14 Street (4,5,6)","14 St-Union Sq (L,N,Q,R,W,4,5,6)",M,Manhattan
+"14 Street (A,C,E)","14 St (A,C,E)/8 Av (L)",M,Manhattan
+"14 Street (F,M)","14 St (F,M,1,2,3)/6 Av (L)",M,Manhattan
+145 Street (3),145 St (3),M,Manhattan
+"145 Street (A,B,C,D)","145 St (A,B,C,D)",M,Manhattan
+157 Street (1),157 St (1),M,Manhattan
+168 St.-Washington Hts. (1),"168 St (A,C,1)",M,Manhattan
+"168 St.-Washington Hts. (A,C)","168 St (A,C,1)",M,Manhattan
+175 Street (A),175 St (A),M,Manhattan
+181 Street (1),181 St (1),M,Manhattan
+181 Street (A),181 St (A),M,Manhattan
+191 Street (1),191 St (1),M,Manhattan
+2 Avenue (F),2 Av (F),M,Manhattan
+200 St.-Dyckman St. (A),Dyckman St (A),M,Manhattan
+207 St.-Inwood (A),Inwood-207 St (A),M,Manhattan
+207 Street (1),207 St (1),M,Manhattan
+23 Street (1),23 St (1),M,Manhattan
+23 Street (6),23 St (6),M,Manhattan
+"23 Street (C,E)","23 St (C,E)",M,Manhattan
+"23 Street (F,M)","23 St (F,M)",M,Manhattan
+"23 Street (N,R)","23 St (R,W)",M,Manhattan
+28 Street (6),28 St (6),M,Manhattan
+"28 Street (N,R)","28 St (R,W)",M,Manhattan
+33 Street (6),33 St (6),M,Manhattan
+"34 St.-Herald Sq. (B,D,F)","34 St-Herald Sq (B,D,F,M,N,Q,R,W)",M,Manhattan
+"34 St.-Penn Station (1,2,3)","34 St-Penn Station (1,2,3)",M,Manhattan
+"34 St.-Penn Station (A,C,E)","34 St-Penn Station (A,C,E)",M,Manhattan
+"34 Street (M,N,Q,R)","34 St-Herald Sq (B,D,F,M,N,Q,R,W)",M,Manhattan
+"42 St.-Grand Central (4,5,6)","Grand Central-42 St (S,4,5,6,7)",M,Manhattan
+"42 St.-Port Authority Bus Terminal (A,C,E)","Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+"42 St.-Times Square (1,2,3)","Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+"42 St.-Times Square (N,Q,R)","Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+42 St.-Times Square (S),"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+"42 Street (B,D,F,M)","42 St-Bryant Pk (B,D,F,M)/5 Av (7)",M,Manhattan
+"49 Street (N,Q,R)","49 St (N,R,W)",M,Manhattan
+"5 Avenue (E,M)","5 Av-53 St (E,M)",M,Manhattan
+50 Street (1),50 St (1),M,Manhattan
+"50 Street (C,E)","50 St (C,E)",M,Manhattan
+51 Street (6),"Lexington Av-53 St (E,M)/51 St (6)",M,Manhattan
+"57 Street (N,Q,R)","57 St-7 Av (N,Q,R,W)",M,Manhattan
+59 St.-Columbus Circle (1),"59 St-Columbus Circle (A,B,C,D,1)",M,Manhattan
+"59 St.-Columbus Circle (A,B,C,D)","59 St-Columbus Circle (A,B,C,D,1)",M,Manhattan
+"59 Street (4,5,6)","Lexington Av (N,R,W)/59 St (4,5,6)",M,Manhattan
+6 Avenue (L),"14 St (F,M,1,2,3)/6 Av (L)",M,Manhattan
+66 St.-Lincoln Center (1),66 St-Lincoln Center (1),M,Manhattan
+"72 Street (1,2,3)","72 St (1,2,3)",M,Manhattan
+77 Street (6),77 St (6),M,Manhattan
+79 Street (1),79 St (1),M,Manhattan
+8 Avenue (L),"14 St (A,C,E)/8 Av (L)",M,Manhattan
+86 Street (1),86 St (1),M,Manhattan
+"86 Street (4,5,6)","86 St (4,5,6)",M,Manhattan
+"96 Street (1,2,3)","96 St (1,2,3)",M,Manhattan
+96 Street (6),96 St (6),M,Manhattan
+"96 Street (B,C)","96 St (B,C)",M,Manhattan
+Bleecker Street (6),"Broadway-Lafayette St (B,D,F,M)/Bleecker St (6)",M,Manhattan
+"Bowling Green (4,5)","Bowling Green (4,5)",M,Manhattan
+"Broadway/Lafayette (B,D,F,M)","Broadway-Lafayette St (B,D,F,M)/Bleecker St (6)",M,Manhattan
+"Broadway/Nassau (A,C)","Fulton St (A,C,J,Z,2,3,4,5)",M,Manhattan
+"Brooklyn Bridge-City Hall (4,5,6)","Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",M,Manhattan
+Canal Street (6),"Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",M,Manhattan
+"Canal Street (A,C,E)","Canal St (A,C,E)",M,Manhattan
+"Canal Street (J,Z)","Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",M,Manhattan
+"Chambers St.-World Trade Center (A,C,E)","Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W)",M,Manhattan
+"Chambers Street (1,2,3)","Chambers St (1,2,3)",M,Manhattan
+"Chambers Street (J,Z)","Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",M,Manhattan
+Delancey Street (F),"Delancey St (F)/Essex St (J,M,Z)",M,Manhattan
+East Broadway (F),East Broadway (F),M,Manhattan
+"Essex Street (J,M,Z)","Delancey St (F)/Essex St (J,M,Z)",M,Manhattan
+"Fulton Street (2,3)","Fulton St (A,C,J,Z,2,3,4,5)",M,Manhattan
+"Fulton Street (4,5)","Fulton St (A,C,J,Z,2,3,4,5)",M,Manhattan
+"Grand Street (B,D)","Grand St (B,D)",M,Manhattan
+"Lexington Ave. (N,Q,R)","Lexington Av (N,R,W)/59 St (4,5,6)",M,Manhattan
+South Ferry (1),"South Ferry (1)/Whitehall St (R,W)",M,Manhattan
+"Spring Street (C,E)","Spring St (C,E)",M,Manhattan
+"Union Square (N,Q,R)","14 St-Union Sq (L,N,Q,R,W,4,5,6)",M,Manhattan
+"W. 4 Street (A,B,C,D,E,F,M)","West 4 St-Washington Sq (A,B,C,D,E,F,M)",M,Manhattan
+Whitehall St.-South Ferry (R),"South Ferry (1)/Whitehall St (R,W)",M,Manhattan
+103 St.-Corona Plaza (7),103 St-Corona Plaza (7),Q,Queens
+111 St.-Roosevelt Ave (7),111 St (7),Q,Queens
+169 Street (F),169 St (F),Q,Queens
+179 St.-Jamaica (F),Jamaica-179 St (F),Q,Queens
+21 St.-Queensbridge (F),21 St-Queensbridge (F),Q,Queens
+52 Street (7),52 St (7),Q,Queens
+"63 Drive-Rego Park (M,R)","63 Dr-Rego Park (M,R)",Q,Queens
+"71 Ave.-Forest Hills (E,F,M,R)","74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Q,Queens
+74 St.-Broadway (7),"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Q,Queens
+80 Street (A),80 St (A),Q,Queens
+82 St.-Jackson Heights (7),82 St-Jackson Hts (7),Q,Queens
+88 Street (A),88 St (A),Q,Queens
+90 St.-Elmhurst Ave. (7),90 St-Elmhurst Av (7),Q,Queens
+Aqueduct-Racetrack (A),Aqueduct Racetrack (A),Q,Queens
+Beach 25 Street (A),Beach 25 St (A),Q,Queens
+Beach 36 Street (A),Beach 36 St (A),Q,Queens
+Beach 44 Street (A),Beach 44 St (A),Q,Queens
+Beach 60 Street (A),Beach 60 St (A),Q,Queens
+Beach 67 Street (A),Beach 67 St-Arverne By The Sea (A),Q,Queens
+"Beach 90 Street (A,S)","Beach 90 St (A,S)",Q,Queens
+"Broadway (N,Q)","Broadway (N,W)",Q,Queens
+Court Square (G),"Court Sq (E,G,M,7)",Q,Queens
+Far Rockaway-Mott Ave. (A),Far Rockaway-Mott Av (A),Q,Queens
+"Grand Ave.-Newton (M,R)","Grand Av-Newtown (M,R)",Q,Queens
+Junction Blvd. (7),Junction Blvd (7),Q,Queens
+Lefferts Blvd. (A),Ozone Park-Lefferts Blvd (A),Q,Queens
+Main St.-Flushing (7),Flushing-Main St (7),Q,Queens
+Parsons Blvd. (F),Parsons Blvd (F),Q,Queens
+"Parsons/Archer-Jamaica Center (E,J,Z)","Jamaica Center-Parsons-Archer (E,J,Z)",Q,Queens
+"Queens Plaza (E,M,R)","Queens Plaza (E,M,R)",Q,Queens
+Rockaway Blvd. (A),Rockaway Blvd (A),Q,Queens
+"Roosevelt Ave.-Jackson Heights (E,F,M,R)","74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Q,Queens
+"Sutphin Blvd.-Archer Ave. (E,J,Z)","Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)",Q,Queens
+"Union Turnpike-Kew Gardens (E,F)","Kew Gardens-Union Turnpike (E,F)",Q,Queens
+"Woodhaven Blvd. (J,Z)","Woodhaven Blvd (J,Z)",Q,Queens
+"Woodhaven Blvd. (M,R)","Woodhaven Blvd (M,R)",Q,Queens
+Baychester Avenue (5),Baychester Av (5),Bx,Bronx
+Mosholu Pkwy. (4),Mosholu Pkwy (4),Bx,Bronx
+"Pelham Pkwy. (2,5)","Pelham Pkwy (2,5)",Bx,Bronx
+Whitlock Avenue (6),Whitlock Av (6),Bx,Bronx
+"Church Avenue (F,G)","Church Av (F,G)",B,Brooklyn
+Grand Street (L),Grand St (L),B,Brooklyn
+Grant Avenue (A),Grant Av (A),B,Brooklyn
+Halsey Street (J),Halsey St (J),B,Brooklyn
+Kings Highway (F),Kings Hwy (F),B,Brooklyn
+Kings Highway (N),Kings Hwy (N),B,Brooklyn
+Nassau Avenue (G),Nassau Av (G),B,Brooklyn
+New Lots Avenue (L),New Lots Av (L),B,Brooklyn
+Shepherd Avenue (C),Shepherd Av (C),B,Brooklyn
+York Street (F),York St (F),B,Brooklyn
+125 Street (1),125 St (1),M,Manhattan
+145 Street (1),145 St (1),M,Manhattan
+"155 Street (B,D)","155 St (B,D)",M,Manhattan
+200 St.-Dyckman St. (1),Dyckman St (1),M,Manhattan
+"47-50 Sts./Rockefeller Ctr. (B,D,F,M)","47-50 Sts-Rockefeller Center (B,D,F,M)",M,Manhattan
+"7 Avenue (B,D,E)","7 Av (B,D,E)",M,Manhattan
+96th Street (Q),96 St (Q),M,Manhattan
+Astor Place (6),Astor Place (6),M,Manhattan
+"Broad Street (J,Z)","Broad St (J,Z)",M,Manhattan
+"Canal Street (N,Q,R)","Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",M,Manhattan
+Christopher St.-Sheridan Sq. (1),Christopher St-Sheridan Sq (1),M,Manhattan
+"Fulton Street (J,Z)","Fulton St (A,C,J,Z,2,3,4,5)",M,Manhattan
+Aqueduct-North Conduit Ave. (A),Aqueduct-North Conduit Av (A),Q,Queens
+"Steinway St. (M,R)","Steinway St (M,R)",Q,Queens
+"Van Wyck Blvd.-Briarwood (E,F)","Briarwood-Van Wyck Blvd (E,F)",Q,Queens
+Vernon Blvd.-Jackson Ave. (7),Vernon Blvd-Jackson Av (7),Q,Queens
+"138 St.-Grand Concourse (4,5)","138 St-Grand Concourse (4,5)",Bx,Bronx
+"233 Street (2,5)","233 St (2,5)",Bx,Bronx
+Gun Hill Road (5),Gun Hill Rd (5),Bx,Bronx
+Pelham Pkwy. (5),Pelham Pkwy (5),Bx,Bronx
+Cleveland Street (J),Cleveland St (J),B,Brooklyn
+Clinton-Washington Avenues (G),Clinton-Washington Avs (G),B,Brooklyn
+"Crescent Street (J,Z)","Crescent St (J,Z)",B,Brooklyn
+New Lots Avenue (3),New Lots Av (3),B,Brooklyn
+18 Street (1),18 St (1),M,Manhattan
+28 Street (1),28 St (1),M,Manhattan
+68 St.-Hunter College (6),68 St-Hunter College (6),M,Manhattan
+86th Street (Q),86 St (Q),M,Manhattan
+Spring Street (6),Spring St (6),M,Manhattan
+61 St.-Woodside (7),Woodside-61 St (7),Q,Queens
+"Astoria Blvd. (N,Q)","Astoria Blvd (N,W)",Q,Queens
+Jamaica-Van Wyck (E),Jamaica-Van Wyck (E),Q,Queens
+"Queensboro Plaza (N,Q,7)","Queensboro Plaza (N,W,7)",Q,Queens
+Sutphin Blvd. (F),Sutphin Blvd (F),Q,Queens
+"Bedford Pk. Blvd. (B,D)","Bedford Park Blvd (B,D)",Bx,Bronx
+East 143 St.-St. Marys Street (6),East 143 St-St Mary's St (6),Bx,Bronx
+62 Street (D),New Utrecht Av (N)/62 St (D),B,Brooklyn
+Botanic Garden (S),"Franklin Av (2,3,4,5)/Botanic Garden (S)",B,Brooklyn
+East 105 Street (L),East 105 St (L),B,Brooklyn
+Kingston Avenue (3),Kingston Av (3),B,Brooklyn
+"Newkirk Avenue (2,5)","Newkirk Av (2,5)",B,Brooklyn
+Prospect Avenue (R),Prospect Av (R),B,Brooklyn
+3 Avenue (L),3 Av (L),M,Manhattan
+42 St.-Grand Central (S),"Grand Central-42 St (S,4,5,6,7)",M,Manhattan
+"Bowery (J,Z)","Bowery (J,Z)",M,Manhattan
+Houston Street (1),Houston St (1),M,Manhattan
+"Prince Street (N,R)","Prince St (R,W)",M,Manhattan
+"67 Avenue (M,R)","67 Av (M,R)",Q,Queens
+"Broad Channel (A,S)","Broad Channel (A,S)",Q,Queens
+"Ditmars Blvd.-Astoria (N,Q)","Astoria-Ditmars Blvd (N,W)",Q,Queens
+9th Street (R),"4 Av (F,G)/9 St (R)",B,Brooklyn
+Liberty Avenue (C),Liberty Av (C),B,Brooklyn
+"103 Street (B,C)","103 St (B,C)",M,Manhattan
+57 Street (F),57 St (F),M,Manhattan
+18 Avenue (F),18 Av (F),B,Brooklyn
+18 Avenue (N),18 Av (N),B,Brooklyn
+Park Place (S),Park Pl (S),B,Brooklyn
+Union Street (R),Union St (R),B,Brooklyn
+242 St.-Van Cortlandt Park (1),Van Cortlandt Park-242 St (1),Bx,Bronx
+5 Avenue (7),"42 St-Bryant Pk (B,D,F,M)/5 Av (7)",M,Manhattan
+"46 Street (M,R)","46 St (M,R)",Q,Queens
+71 Street (D),71 St (D),B,Brooklyn
+"Lorimer Street (J,M)","Lorimer St (J,M)",B,Brooklyn
+110 St.-Cathedral Pkwy. (1),Cathedral Pkwy-110 St (1),M,Manhattan
+34 Street (7),34 St-Hudson Yards (7),M,Manhattan
+33 Street (7),33 St-Rawson St (7),Q,Queens
+"Elmhurst Ave. (M,R)","Elmhurst Av (M,R)",Q,Queens
+95 Street-Bay Ridge (R),Bay Ridge-95 St (R),B,Brooklyn
+163 St.-Amsterdam Ave. (C),163 St-Amsterdam Av (C),M,Manhattan
+"Broadway-Eastern Pkwy (J,L,Z)","Broadway Junction (A,C,J,L,Z)",B,Brooklyn
+Howard Beach-Jfk Airport (A),Howard Beach-JFK Airport (A),Q,Queens
+Buhre Avenue (6),Buhre Av (6),Bx,Bronx
+42 St.-Grand Central (7),"Grand Central-42 St (S,4,5,6,7)",M,Manhattan
+Hunters Point Avenue (7),Hunters Point Av (7),Q,Queens
+103 Street (1),103 St (1),M,Manhattan
+"149 St.-Grand Concourse (2,5)","149 St-Grand Concourse (2,4,5)",Bx,Bronx
+20 Avenue (N),20 Av (N),B,Brooklyn
+79 Street (D),79 St (D),B,Brooklyn
+"7th Avenue (B,Q)","7 Av (B,Q)",B,Brooklyn
+8 Avenue (N),8 Av (N),B,Brooklyn
+Beverley Road (Q),Beverley Rd (Q),B,Brooklyn
+Broadway (G),Broadway (G),B,Brooklyn
+Bushwick Ave.-Aberdeen St. (L),Bushwick Av-Aberdeen St (L),B,Brooklyn
+Cortelyou Road (Q),Cortelyou Rd (Q),B,Brooklyn
+Ditmas Avenue (F),Ditmas Av (F),B,Brooklyn
+Metropolitan Avenue (G),Lorimer St (L)/Metropolitan Av (G),B,Brooklyn
+Neck Road (Q),Neck Rd (Q),B,Brooklyn
+Neptune Avenue (F),Neptune Av (F),B,Brooklyn
+Seneca Avenue (M),Seneca Av (M),Q,Queens
+116 St.-Columbia University (1),116 St-Columbia University (1),M,Manhattan
+190 Street (A),190 St (A),M,Manhattan
+225 St.-Marble Hill (1),Marble Hill-225 St (1),M,Manhattan
+238 Street (1),238 St (1),Bx,Bronx
+42 St.-Times Square (7),"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+"5 Avenue (N,Q,R)","5 Av-59 St (N,R,W)",M,Manhattan
+72nd Street (Q),72 St (Q),M,Manhattan
+"81 St.-Museum Of Natural History (B,C)","81 St-Museum of Natural History (B,C)",M,Manhattan
+"86 Street (B,C)","86 St (B,C)",M,Manhattan
+Cortlandt Street (R),"Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W)",M,Manhattan
+Franklin Street (1),Franklin St (1),M,Manhattan
+Lexington Ave. (F),"Lexington Av-63 St (F,Q)",M,Manhattan
+"Wall Street (4,5)","Wall St (4,5)",M,Manhattan
+111 Street (A),111 St (A),Q,Queens
+"121 Street (J,Z)","121 St (J,Z)",Q,Queens
+"65 Street (M,R)","65 St (M,R)",Q,Queens
+69 Street (7),69 St (7),Q,Queens
+"75 Avenue (E,F)","75 Av (E,F)",Q,Queens
+"Beach 98 Street (A,S)","Beach 98 St (A,S)",Q,Queens
+Roosevelt Island (F),Roosevelt Island (F),M,Manhattan
+Bedford Pk. Blvd.-Lehman College (4),Bedford Park Blvd-Lehman College (4),Bx,Bronx
+Middletown Road (6),Middletown Rd (6),Bx,Bronx
+"15 St.-Prospect Park (F,G)","15 St-Prospect Park (F,G)",B,Brooklyn
+55 Street (D),55 St (D),B,Brooklyn
+9 Avenue (D),9 Av (D),B,Brooklyn
+"Avenue ""I"" (F)",Avenue I (F),B,Brooklyn
+Classon Avenue (G),Classon Av (G),B,Brooklyn
+Court Street (R),"Court St (R)/Borough Hall (2,3,4,5)",B,Brooklyn
+Cypress Hills (J),Cypress Hills (J),B,Brooklyn
+"Fort Hamilton Pkwy (F,G)","Fort Hamilton Pkwy (F,G)",B,Brooklyn
+Fort Hamilton Pkwy (N),Fort Hamilton Pkwy (N),B,Brooklyn
+Fresh Pond Road (M),Fresh Pond Rd (M),Q,Queens
+148 St.-Harlem (3),Harlem-148 St (3),M,Manhattan
+155 Street (C),155 St (C),M,Manhattan
+215 Street (1),215 St (1),M,Manhattan
+231 Street (1),231 St (1),Bx,Bronx
+"8 St.-Nyu (N,R)","8 St-New York University (R,W)",M,Manhattan
+City Hall (R),"City Hall (R,W)",M,Manhattan
+"Lexington Avenue (E,M)","Lexington Av-53 St (E,M)/51 St (6)",M,Manhattan
+"Wall Street (2,3)","Wall St (2,3)",M,Manhattan
+104 Street (A),104 St (A),Q,Queens
+"30 Avenue (N,Q)","30 Av (N,W)",Q,Queens
+"39 Avenue (N,Q)","39 Av-Dutch Kills (N,W)",Q,Queens
+40 Street (7),40 St-Lowery St (7),Q,Queens
+46 Street (7),46 St-Bliss St (7),Q,Queens
+"75 St.-Elderts Lane (J,Z)","75 St-Elderts Ln (J,Z)",Q,Queens
+"Rockaway Park-Beach 116 St. (A,S)","Rockaway Park-Beach 116 St (A,S)",Q,Queens
+Willets Point-Shea Stadium (7),Mets-Willets Point (7),Q,Queens
+Morris Park (5),Morris Park (5),Bx,Bronx
+"Chauncey Street (J,Z)","Chauncey St (J,Z)",B,Brooklyn
+"Clark Street (2,3)","Clark St (2,3)",B,Brooklyn
+Franklin Avenue (S),"Franklin Av (C,S)",B,Brooklyn
+New Utrecht Avenue (N),New Utrecht Av (N)/62 St (D),B,Brooklyn
+"72 Street (B,C)","72 St (B,C)",M,Manhattan
+Cortlandt Street (1),WTC Cortlandt (1),M,Manhattan
+"Park Place (2,3)","Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W)",M,Manhattan
+Rector Street (R),"Rector St (R,W)",M,Manhattan
+"102 Street (J,Z)","Jamaica Center-Parsons-Archer (E,J,Z)",Q,Queens
+21 Street (G),21 St (G),Q,Queens
+"23 Street-Ely Avenue (E,M)","Court Sq (E,G,M,7)",Q,Queens
+85 St.-Forest Pkwy. (J),85 St-Forest Pkwy (J),Q,Queens
+"Northern Blvd. (M,R)","Northern Blvd (M,R)",Q,Queens
+"Avenue ""N"" (F)",Avenue N (F),B,Brooklyn
+"Avenue ""U"" (N)",Avenue U (N),B,Brooklyn
+"Avenue ""X"" (F)",Avenue X (F),B,Brooklyn
+"Hewes Street (J,M)","Hewes St (J,M)",B,Brooklyn
+Rector Street (1),Rector St (1),M,Manhattan
+"36 Avenue (N,Q)","36 Av (N,W)",Q,Queens
+45 Road-Court House Square (7),"Court Sq (E,G,M,7)",Q,Queens
+"Avenue ""U"" (F)",Avenue U (F),B,Brooklyn
+Forest Avenue (M),Forest Av (M),Q,Queens
+Metropolitan Avenue (M),Middle Village-Metropolitan Av (M),Q,Queens
+"Avenue ""P"" (F)",Avenue P (F),B,Brooklyn
+"36 Street (M,R)","36 St (M,R)",Q,Queens
+50 Street (D),50 St (D),B,Brooklyn
+Central Avenue (M),Central Av (M),B,Brooklyn
+Canal Street (1),Canal St (1),M,Manhattan
+Bay Parkway (F),Bay Pkwy (F),B,Brooklyn
+Knickerbocker Avenue (M),Knickerbocker Av (M),B,Brooklyn
+East Tremont Av.-Westchester S (6),Westchester Sq-East Tremont Av (6),Bx,Bronx
+"East Tremont Ave.-West Farms S (2,5)","West Farms Sq-East Tremont Av (2,5)",Bx,Bronx
+"36 Street (B,M,N,R)","36 St (D,N,R)",B,Brooklyn
+"45 Street (N,R)",45 St (R),B,Brooklyn
+"71 Street (B,M)",71 St (D),B,Brooklyn
+"9th Street (M,N,R)","4 Av (F,G)/9 St (R)",B,Brooklyn
+"Bay Parkway (B,M)",Bay Pkwy (N),B,Brooklyn
+"Brighton Beach (D,Q)","Brighton Beach (B,Q)",B,Brooklyn
+"Clinton-Washington Avenues (A,C)",Clinton-Washington Avs (C),B,Brooklyn
+Cortelyou Road (D),Cortelyou Rd (Q),B,Brooklyn
+"Grant Avenue (A,C)",Grant Av (A),B,Brooklyn
+"Kings Highway (D,Q)","Kings Hwy (B,Q)",B,Brooklyn
+"Pacific Street (B,M,N,R)","Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",B,Brooklyn
+"Sheepshead Bay (D,Q)","Sheepshead Bay (B,Q)",B,Brooklyn
+"Stillwell Avenue-Coney Island (B,D,F,N)","Coney Island-Stillwell Av (D,F,N,Q)",B,Brooklyn
+"Union Street (M,N,R)",Union St (R),B,Brooklyn
+"116 Street (A,B,C)","116 St (B,C)",M,Manhattan
+"42 St.-Port Authority Bus Term (A,C,E)","Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",M,Manhattan
+"57 Street (N,R,S)","57 St-7 Av (N,Q,R,W)",M,Manhattan
+"72 Street (1,2,3,9)","72 St (1,2,3)",M,Manhattan
+"79 Street (1,9)",79 St (1),M,Manhattan
+"Broadway/Lafayette (B,D,F,Q)","Broadway-Lafayette St (B,D,F,M)/Bleecker St (6)",M,Manhattan
+"Grand Street (B,D,Q)","Grand St (B,D)",M,Manhattan
+"Union Square (N,R)","14 St-Union Sq (L,N,Q,R,W,4,5,6)",M,Manhattan
+West 34 Street/Hudson Yards (7),34 St-Hudson Yards (7),M,Manhattan
+"Queens Plaza (E,F,G,R)","Queens Plaza (E,M,R)",Q,Queens
+"Queensboro Plaza (N,7)","Queensboro Plaza (N,W,7)",Q,Queens
+"Roosevelt Ave.-Jackson Heights (E,F,G,R)","74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Q,Queens
+"Woodhaven Blvd. (G,R)","Woodhaven Blvd (M,R)",Q,Queens
+111 Street (J),111 St (J),Q,Queens
