@@ -257,7 +257,7 @@ stations %>%
   filter(station_count < complex_count | gtfs_stop_count < station_count)
 
 # 378 unique station
-turnstiledata_example %>%
+turnstiledata_200 %>%
   dplyr::select(c_a, unit, scp, station) %>%
   group_by(station) %>%
   summarise(c_a_count = n_distinct(c_a),
@@ -267,10 +267,9 @@ turnstiledata_example %>%
   filter(station_count < complex_count | gtfs_stop_count < station_count)
 
 ## 421 unique data
-all_arrests_and_summonses <- read_csv("/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/CleanedData/04_all_arrests_and_summonses.csv")
-all_arrests_and_summonses %>%
-  dplyr::select(final_Street_Names, final_All_Lines) %>%
-  distinct()
+all_arrests_and_summonses <- read_csv("/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/mapping-nypd-fare-evasion-enforcement/CleanedData/04_all_arrests_and_summonses.csv")
+
+
 
 # Case Study: 14th St
 ## NYPD enforcement
@@ -292,3 +291,87 @@ faredata_combined %>%
   distinct() 
 
 length(unique(turnstiledata_200$station))
+
+# Compare nypd enforcement vs turnstile vs cuny dataset
+unique_nypd_enforcement_station_naming <- all_arrests_and_summonses %>%
+  dplyr::select(final_Street_Names, final_All_Lines) %>%
+  distinct() %>%
+  mutate(final_All_Lines = str_remove_all(final_All_Lines, ","),
+         nypd = TRUE)
+
+unique_nypd_enforcement_station_naming$final_Street_Names <- unique_nypd_enforcement_station_naming$final_Street_Names %>% 
+  str_replace_all(c('\\STREET' = 'ST', 
+                    'AVENUE' = 'AV',
+                    'AVE' = 'AV',
+                    '\\.' = '',
+                    '9TH' = '9',
+                    '7TH' = '7',
+                    '86TH' = '86',
+                    '96TH' = '96',
+                    'PK' = 'PARK',
+                    'PARKWY' = 'PKWY',
+                    'PARKWAY' = 'PKWY',
+                    'ROAD' = 'RD')) # 497 unique station-lines combinations 
+
+unique_mta_tidy_station_naming <- mta_tidy %>% 
+  ungroup() %>%
+  dplyr::select(mta_station) %>% 
+  distinct() %>%
+  separate(mta_station, into = c("station", "lines"), sep = " \\(") %>%
+  mutate(lines = str_remove(lines, "\\)"),
+         mta_tidy = TRUE) # 421 unique station-lines combinations
+
+# compute daily ridership using turnstile data
+unique_mta_station_naming <- turnstiledata_200 %>% 
+  distinct(station, linename) %>%
+  mutate(turnstile = TRUE) # 477 unique station-lines combinations
+
+unique_cuny_station_naming <- cuny_subway_stations_geo %>% 
+  as.data.frame() %>%
+  dplyr::select(stop_name, trains) %>% distinct() %>%
+  mutate(stop_name = toupper(stop_name),
+         stop_name = str_replace(stop_name, " - ", "-"),
+         trains = str_remove_all(trains, " "),
+         cuny = TRUE) # 493 unique station-lines combinations
+
+# mta_tidy vs turnstile
+unique_mta_tidy_station_naming %>%
+  mutate(station = toupper(station),
+         lines = str_remove_all(lines, ",")) %>%
+  full_join(unique_mta_station_naming, 
+            by = c("station", "lines" = "linename")) %>% 
+  #filter(!is.na(mta_tidy) & !is.na(turnstile)) %>% nrow() # 272/477 (57%) unique station-lines combinations matched - 1st try
+  filter(is.na(mta_tidy)|is.na(turnstile)) %>% arrange(station) %>% view() 
+
+## Big patterns: (1) lines ordered differently; (2) acronyms
+
+# mta_tidy vs cuny
+unique_mta_tidy_station_naming %>%
+  mutate(station = toupper(station),
+         lines = str_remove_all(lines, ",")) %>%
+  full_join(unique_cuny_station_naming, 
+            by = c("station" = "stop_name", "lines" = "trains")) %>%
+  #filter(!is.na(mta_tidy) & !is.na(cuny)) %>% nrow() # 347/493 (70%) unique station-lines combinations matched - 1st try
+  filter(is.na(mta_tidy)|is.na(cuny)) %>% arrange(station) %>% view()
+## Big patterns: (1) cuny data has granular lines data, and thus more rows per station; good news is that namings are very similar
+
+# turnstile vs cuny
+unique_mta_station_naming %>%
+  full_join(unique_cuny_station_naming, 
+            by = c("station" = "stop_name", "linename" = "trains")) %>%
+  #filter(!is.na(turnstile) & !is.na(cuny)) %>% nrow() # 281/493 (57%) unique station-lines combinations matched - 1st try
+  filter(is.na(turnstile)|is.na(cuny)) %>% arrange(station) %>% view()
+## Big patterns: (1) acronyms; (2) cuny has granular lines data;
+  
+## CUNY and mta_tidy has similar naming, while turnstile data has a different naming
+
+# nypd vs turnstile
+unique_nypd_enforcement_station_naming %>% 
+  full_join(unique_mta_station_naming,
+            by = c("final_Street_Names" = "station", "final_All_Lines" = "linename")) %>%
+  #filter(!is.na(nypd) & !is.na(turnstile)) %>% nrow() # 244/477 (51%) unique station-lines combinations matched 
+  filter(is.na(nypd)|is.na(turnstile)) %>% arrange(final_Street_Names) %>% view()
+## Big patterns: (1) acronym; (2) nypd data has granular lines info; (3) inconsistent line order in turnstile i.e.) 
+
+turnstildata_200 %>%
+  mutate(date_time = paste0(date, time))
