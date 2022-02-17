@@ -374,4 +374,5 @@ unique_nypd_enforcement_station_naming %>%
 ## Big patterns: (1) acronym; (2) nypd data has granular lines info; (3) inconsistent line order in turnstile i.e.) 
 
 turnstildata_200 %>%
-  mutate(date_time = paste0(date, time))
+  mutate(date_time = as.Date(paste0(date, " ", time),
+                             format = "%m/%d/%Y %H:%M:%S")) %>%
