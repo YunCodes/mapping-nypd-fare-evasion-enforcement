@@ -15,7 +15,7 @@ load(paste0(wd, "CleanedData/03.RData"))
 # If station has been consistently assigned to a certain borough, the first value in the last column should show '1'
 # If not, the first value should show a value bigger than '1'
 all_arrests %>% 
-  select(Borough, Street_Names, All_Lines) %>%
+  dplyr::select(Borough, Street_Names, All_Lines) %>%
   distinct() %>% 
   arrange(desc(Street_Names, All_Lines)) %>% 
   group_by(Street_Names, All_Lines) %>%
@@ -27,7 +27,7 @@ all_arrests %>%
 # If station has been consistently assigned to a certain borough, the first value in the last column should show '1'
 # If not, the first value should show a value bigger than '1'
 all_summonses %>% 
-  select(Borough, Street_Names, All_Lines) %>%
+  dplyr::select(Borough, Street_Names, All_Lines) %>%
   distinct() %>% 
   arrange(desc(Borough, Street_Names, All_Lines)) %>%
   group_by(Street_Names, All_Lines) %>%
@@ -68,16 +68,16 @@ all_summonses$final_Street_Names[all_summonses$Street_Names == "42 ST.-PORT AUTH
 # Select three columns from stacked arrests and summonses datasets
 # Remove duplicates using 'distinct()' function
 all_arrests_cleaned_1 <- all_arrests %>% 
-  select(Borough, Street_Names, All_Lines) %>%
+  dplyr::select(Borough, Street_Names, All_Lines) %>%
   distinct()
 
 all_summonses_cleaned_1 <- all_summonses %>% 
-  select(Borough, Street_Names, All_Lines) %>%
+  dplyr::select(Borough, Street_Names, All_Lines) %>%
   distinct()
 
 # Rbind unique stations from each stacked dataset
 all_unique_nypd_stations <- rbind(all_arrests_cleaned_1, all_summonses_cleaned_1) %>%
-  select(Borough, Street_Names, All_Lines) %>%
+  dplyr::select(Borough, Street_Names, All_Lines) %>%
   distinct()
 
 # The code below shows which 'Station_Names'-'All_Lines' pairs were assigned to multiple boroughs
@@ -118,10 +118,10 @@ all_unique_nypd_station_final <- all_unique_nypd_stations %>%
 
 # Apply above changes to both stacked arrests and summonses datasets using 'all_unique_nypd_stations_final'
 all_arrests_cleaned_final <- all_arrests %>%
-  select(Borough, Street_Names, All_Lines, Year, Quarter, 
+  dplyr::select(Borough, Street_Names, All_Lines, Year, Quarter, 
          `American Indian`, `Asian/Pac Isl`, Black, Hispanic, Unknown, White, `Grand Total`) %>%
   left_join(all_unique_nypd_station_final, by = c("Borough", "Street_Names", "All_Lines")) %>%
-  select(-Borough, -Street_Names, -All_Lines) %>% 
+  dplyr::select(-Borough, -Street_Names, -All_Lines) %>% 
   ungroup() %>%
   group_by(Year, Quarter, final_Borough, final_Street_Names, final_All_Lines) %>%
   summarise(`American Indian` = sum(`American Indian`, na.rm = TRUE),
@@ -132,10 +132,10 @@ all_arrests_cleaned_final <- all_arrests %>%
             `Grand Total` = sum(`Grand Total`, na.rm = TRUE))
 
 all_summonses_cleaned_final <- all_summonses %>%
-  select(Borough, Street_Names, All_Lines, Year, Quarter, 
+  dplyr::select(Borough, Street_Names, All_Lines, Year, Quarter, 
          `American Indian`, `Asian/Pac Isl`, Black, Hispanic, Unknown, White, `Grand Total`) %>%
   left_join(all_unique_nypd_station_final, by = c("Borough", "Street_Names", "All_Lines")) %>%
-  select(-Borough, -Street_Names, -All_Lines) %>%
+  dplyr::select(-Borough, -Street_Names, -All_Lines) %>%
   ungroup() %>% 
   group_by(Year, Quarter, final_Borough, final_Street_Names, final_All_Lines) %>%
   summarise(`American Indian` = sum(`American Indian`, na.rm = TRUE),
@@ -162,7 +162,7 @@ colnames(all_arrests_and_summonses) <- str_replace(
 # Check if there is any station whose borough is assigned inconsistently
 all_arrests_and_summonses %>%
   ungroup() %>%
-  select(final_Borough, final_Street_Names, final_All_Lines) %>%
+  dplyr::select(final_Borough, final_Street_Names, final_All_Lines) %>%
   distinct() %>%
   group_by(final_Street_Names, final_All_Lines) %>%
   tally() %>%

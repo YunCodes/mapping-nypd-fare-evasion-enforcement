@@ -5,7 +5,7 @@
 load(paste0(wd, "CleanedData/04.RData"))
 
 ##----------PART 1: Loading MTA Ridership data
-mta <- read_excel("/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/RawData/MTARidership/2020 Subway Tables_UL.xlsx",
+mta <- read_excel("/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/mapping-nypd-fare-evasion-enforcement/RawData/MTARidership/2020 Subway Tables_UL.xlsx",
                   sheet = "Annual Total", skip = 1) %>%
   rename(mta_station = `Station (alphabetical by borough)`,
          mta_borough = Boro,
@@ -25,11 +25,11 @@ all_arrests_and_summonses$nypd_station <- str_to_title(
 # Create new dataframe with only distinct nypd names for checking
 distinct_nypd_names <- all_arrests_and_summonses %>%
   ungroup() %>%
-  select(nypd_station)
+  dplyr::select(nypd_station)
 
 # Create new dataframe with distinct mta names
 distinct_mta_names <- mta %>% 
-  select(mta_borough, mta_station) %>%
+  dplyr::select(mta_borough, mta_station) %>%
   mutate(mta_borough_for_joining = 
            case_when(
              mta_borough == "Bx" ~ "Bronx",

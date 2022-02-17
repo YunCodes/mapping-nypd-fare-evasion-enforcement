@@ -96,7 +96,7 @@ for (y in years){
     
       # Merge newly generated variable with data
       data_2 <- merge(data, z, by=0) %>%  # by=0 same as by="row.names"
-        select(-`Row.names`) %>% 
+        dplyr::select(-`Row.names`) %>% 
         arrange(ID)
       
     
@@ -135,7 +135,7 @@ for (y in years){
       ##----------PART 5: Creating column "Street Name"
       # Create new dataframe called "Streets" by filtering by string length
       Streets <- data_2 %>%
-        select(ID, BSL) %>%
+        dplyr::select(ID, BSL) %>%
         filter(str_length(BSL) > 1) %>% # filter out line info with only one line
         filter(!str_detect(substr(BSL, 1, 2), ",")) %>% # filter out line info with multiple line
         rename(Street_Names = BSL) %>%
@@ -155,7 +155,7 @@ for (y in years){
     # we have already generated new variables for street names and Lines. BSL can then be removed
     data_4 <- data_3 %>%
       filter(!is.na(Line1)) %>%
-      select(-BSL) 
+      dplyr::select(-BSL) 
     
     # Identify all observations where Street Name == UNKNOWN 
     unknowns_data <- data_2 %>% 

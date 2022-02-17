@@ -20,7 +20,7 @@ quarters <- 1:4
 enforcement_type <- c("arrests", "summonses")
 
 ##----------SECTION 1: Load all quarterly arrests and summonses files
-wd <- "/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/"
+wd <- "/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/mapping-nypd-fare-evasion-enforcement/"
 # Set path to 'RScripts/01_data_cleaning/' directory
 sd <- paste0(wd, "RScripts/01_data_cleaning/")
 

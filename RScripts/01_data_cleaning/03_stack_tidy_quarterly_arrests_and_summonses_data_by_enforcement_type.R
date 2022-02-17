@@ -51,7 +51,7 @@ for (y in years){
       } else {}
       
       data_final_uniform <- data_final %>%
-        select(columns_of_interest)
+        dplyr::select(columns_of_interest)
       
       ##----------PART 3: Assigning standardized tidy quarterly datasets to new dataframes 
       # i.e.) "a18q1_final_uniform" for the arrests dataset for 2018 Q1

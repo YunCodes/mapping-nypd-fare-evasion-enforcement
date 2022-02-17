@@ -70,7 +70,7 @@ for (y in years){
     
     # Merge newly generated variable with data
     data_2 <- merge(data, z, by=0) %>%  # by=0 same as by="row.names"
-      select(-`Row.names`) %>% 
+      dplyr::select(-`Row.names`) %>% 
       arrange(ID)
     
     ### Below four lines of codes are Summonses only
@@ -121,7 +121,7 @@ for (y in years){
     ## PART 4: Creating Column "Street Name"
     # Create new dataframe called "Streets" by filtering by string length 
     Streets <- data_2 %>%
-      select(ID, BSL) %>%
+      dplyr::select(ID, BSL) %>%
       filter(str_length(BSL) > 1) %>% # filter out line info with only one line
       filter(!str_detect(substr(BSL, 1, 2), ",")) %>% # filter out line info with multiple line
       rename(Street_Names = BSL) %>%
@@ -143,7 +143,7 @@ for (y in years){
     
     data_4 <- data_3 %>%
       filter(!is.na(Line1)) %>%
-      select(-BSL)
+      dplyr::select(-BSL)
     
     unknowns_data <- data_2 %>% 
       filter(BSL %in% c("UNKNOWN", "OFF-SYSTEM")) %>% 
@@ -162,7 +162,7 @@ for (y in years){
     
     data_final <- data_3 %>% 
       filter(!is.na(Line1)) %>% 
-      select(-BSL) %>%
+      dplyr::select(-BSL) %>%
       mutate(Quarter = q,
              Year = paste0("20", y))
     

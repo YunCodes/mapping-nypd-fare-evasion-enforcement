@@ -5,7 +5,7 @@
 ## PART 4: Assigning uniformly formatted quarterly raw datasets to new dataframes
 
 # Set filepath to 'RawData/NYPDFareEvasionEnforcement' directory
-filepath <- "/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/RawData/NYPDFareEvasionEnforcement/"
+filepath <- "/Volumes/GoogleDrive/.shortcut-targets-by-id/1WBQrmAFhEPn7U4_xO-72Zpk8UE-sZo02/Fare Evasion/NYPDFareEvasionProject/mapping-nypd-fare-evasion-enforcement/RawData/NYPDFareEvasionEnforcement/"
 
 # Create for loop reading and uniformly (and roughly) reformatting raw quarterly arrests and summonses files
 # Several changes in data structure have been reflected using if-else statements
